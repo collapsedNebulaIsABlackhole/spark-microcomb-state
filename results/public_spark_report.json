@@ -1,0 +1,61 @@
+{
+  "shape_rule": {
+    "narrow_if_span_below": 50.0,
+    "smooth_if_sech_rms_below": 0.5
+  },
+  "classification": {
+    "indexer_labels": [
+      "modulated",
+      "smooth"
+    ],
+    "label_source": "sech_rms threshold, not an author-published soliton number",
+    "with_peak_power": [
+      {
+        "split": "TestingSet",
+        "n": 200,
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      {
+        "split": "ValidationSet",
+        "n": 108,
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      }
+    ],
+    "without_peak_power": [
+      {
+        "split": "TestingSet",
+        "n": 200,
+        "accuracy": 0.97,
+        "macro_f1": 0.9522216913521261
+      },
+      {
+        "split": "ValidationSet",
+        "n": 108,
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      }
+    ],
+    "peak_power_dbm_ranges": {
+      "smooth": [
+        -38.59811808901476,
+        -36.85345520999743
+      ],
+      "modulated": [
+        -33.17011807018642,
+        -11.81148712360953
+      ],
+      "overlap": false
+    }
+  },
+  "heater": {
+    "n": 15,
+    "bandwidth_slope_nm_per_mW": 0.5489975678963694,
+    "bandwidth_intercept_nm": -49.35753272923793,
+    "bandwidth_r2": 0.9704865046893391,
+    "linewidth_slope_Hz_per_mW": 6.801280071423645,
+    "linewidth_intercept_Hz": -808.7940920396793,
+    "linewidth_r2": 0.8775728063985972
+  }
+}

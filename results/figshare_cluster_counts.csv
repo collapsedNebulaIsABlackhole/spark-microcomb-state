@@ -1,0 +1,10 @@
+﻿split,cluster,n
+TestingSet,0,132
+TestingSet,1,68
+TestingSet,2,30
+TrainingSet,0,256
+TrainingSet,1,176
+TrainingSet,2,80
+ValidationSet,0,64
+ValidationSet,1,44
+ValidationSet,2,20

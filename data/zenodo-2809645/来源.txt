@@ -1,0 +1,8 @@
+来源：Zenodo
+题目：Data and code for figures: Dynamics of soliton crystals in optical microresonators
+DOI：10.5281/zenodo.2809645
+许可：CC BY 4.0
+文件：Zenodo_PSC_Karpov.zip
+大小：324880001 字节
+MD5：db71c87a77434c5454ee52d3a30dc8e6
+说明：孤子晶体论文的图数据，MATLAB .mat，没有现成的机器学习标签。

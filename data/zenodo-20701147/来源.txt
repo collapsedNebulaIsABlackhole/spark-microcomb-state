@@ -1,0 +1,8 @@
+来源：Zenodo
+题目：Data for "Integrated soliton microcombs beyond the turnkey limit"
+DOI：10.5281/zenodo.20701147
+许可：CC BY 4.0
+文件：Integrated_soliton_microcombs_beyond_the_turnkey_limit_data.zip
+大小：41903294 字节
+MD5：e5f21267276779696ee7cb1db3ce0b57
+说明：透射谱、光梳功率扫描、加热调谐、光谱、拍频、频率噪声、谱宽和转换效率等已处理数据。论文预印本：https://arxiv.org/abs/2511.06909

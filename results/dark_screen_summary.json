@@ -1,0 +1,91 @@
+{
+  "全局相邻齿差": {
+    "threshold": "anchor",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "n_pass": 29,
+    "n_hit": 29
+  },
+  "翼部分段齿差": {
+    "threshold": "anchor",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "n_pass": 29,
+    "n_hit": 29
+  },
+  "翼状模板": {
+    "threshold": "anchor",
+    "precision": 1.0,
+    "recall": 0.3103448275862069,
+    "f1": 0.47368421052631576,
+    "n_pass": 9,
+    "n_hit": 9
+  },
+  "左右对称": {
+    "threshold": "anchor",
+    "precision": 1.0,
+    "recall": 0.034482758620689655,
+    "f1": 0.06666666666666667,
+    "n_pass": 1,
+    "n_hit": 1
+  },
+  "分段+模板+对称": {
+    "threshold": "anchor",
+    "precision": 1.0,
+    "recall": 0.034482758620689655,
+    "f1": 0.06666666666666667,
+    "n_pass": 1,
+    "n_hit": 1
+  },
+  "logistic_loo": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_pass": 0,
+    "n_hit": 0
+  },
+  "tuned": {
+    "全局相邻齿差-扫描阈值": {
+      "cut": 2.8729,
+      "higher": false,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_pass": 29,
+      "n_hit": 29
+    },
+    "翼部分段齿差-扫描阈值": {
+      "cut": 2.7598,
+      "higher": false,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_pass": 29,
+      "n_hit": 29
+    },
+    "翼状模板-扫描阈值": {
+      "cut": 0.3537,
+      "higher": true,
+      "precision": 1.0,
+      "recall": 0.9655172413793104,
+      "f1": 0.9824561403508771,
+      "n_pass": 28,
+      "n_hit": 28
+    },
+    "对称相关-扫描阈值": {
+      "cut": 0.444,
+      "higher": true,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_pass": 29,
+      "n_hit": 29
+    }
+  },
+  "loo_interval": {
+    "cover": 26,
+    "checked": 29
+  }
+}

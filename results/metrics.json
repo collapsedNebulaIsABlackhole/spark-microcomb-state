@@ -1,0 +1,37 @@
+{
+  "models": [
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.8076923076923077,
+      "macro_f1": 0.6093333333333334,
+      "train_rows": 58,
+      "test_rows": 26
+    },
+    {
+      "model": "knn_k5",
+      "accuracy": 0.8076923076923077,
+      "macro_f1": 0.631055900621118,
+      "train_rows": 58,
+      "test_rows": 26
+    },
+    {
+      "model": "decision_tree",
+      "accuracy": 0.7692307692307693,
+      "macro_f1": 0.5971861471861472,
+      "train_rows": 58,
+      "test_rows": 26
+    }
+  ],
+  "classes": [
+    "chaotic_or_breathing",
+    "continuous_wave",
+    "modulation_instability",
+    "multi_soliton",
+    "single_soliton"
+  ],
+  "bandwidth_fit": {
+    "slope_lines_per_alpha": 1.5327428029104715,
+    "intercept": 4.579563429294528,
+    "n": 12
+  }
+}

@@ -1,0 +1,15 @@
+state,detuning_mode,n,pep_avg,pep_min,pep_max,dark_avg,alpha_min,alpha_max
+cw_locked,fixed,4,0.4095,0.1583,0.638,0.0001,-6.0,-4.0
+cw_locked,fwd_memory,174,6.0648,1.7351,7.7775,0.0,-80.0,12.0
+cw_locked,rev_memory,63,5.8035,1.4516,7.6601,0.0,-75.0,25.0
+mi_legacy,fixed,30,4.1415,0.183,9.2958,0.8282,-15.0,-1.0
+mi_legacy,rev_memory,4,4.4533,4.0867,4.7127,,-30.0,-10.0
+other,fixed,3,0.6376,0.2946,1.0715,0.0003,-10.0,-5.0
+other,fwd_memory,3,6.5945,6.2268,7.33,0.0,-64.0,-55.0
+other,rev_memory,14,4.6764,0.074,6.9356,0.0,-65.0,30.0
+platicon,fwd_memory,10,3.3645,3.0468,3.6304,0.4355,-90.0,-60.0
+platicon,rev_memory,550,3.4076,3.0054,4.0469,0.4239,-92.0,-40.0
+platicon_crystal,rev_memory,105,3.4929,3.3209,4.7709,0.4123,-80.0,-59.2
+unlocked,fixed,8,0.0682,0.0173,0.1256,0.0004,-15.0,-6.0
+unlocked,fwd_memory,63,0.0116,0.0005,0.0447,0.0,15.0,120.0
+unlocked,rev_memory,18,0.002,0.0004,0.0073,,35.0,120.0

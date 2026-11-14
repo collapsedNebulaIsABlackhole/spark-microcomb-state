@@ -1,0 +1,25 @@
+{
+  "engine": "pyspark 3.5.3",
+  "master": "local[2]",
+  "java": "Temurin 21.0.4",
+  "why_local": "实验镜像 bigdata/hadoop:3.3.6 和 bigdata/hive:4.0.1 里没有 spark-submit。同一张 operating_points.csv 已放在 HDFS。",
+  "rows": 1049,
+  "train_rows": 719,
+  "test_rows": 330,
+  "split": "randomSplit 0.7/0.3, seed 7，未分层",
+  "features": ["alpha_L", "rev_flag"],
+  "logistic_accuracy": 0.8273,
+  "logistic_macro_f1": 0.4434,
+  "pep_slope_per_alpha": 0.016288,
+  "pep_intercept": 4.516241,
+  "pep_r2": 0.9695,
+  "pep_rmse": 0.0279,
+  "test_label_counts_by_indexer_id": {
+    "0": 175,
+    "1": 82,
+    "2": 31,
+    "3": 28,
+    "4": 8,
+    "5": 6
+  }
+}

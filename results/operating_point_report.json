@@ -1,0 +1,48 @@
+{
+  "rows": 1049,
+  "train_rows": 734,
+  "test_rows": 315,
+  "features": [
+    "alpha_L",
+    "rev_flag"
+  ],
+  "excluded_because_they_define_the_label": [
+    "Pep",
+    "Pem",
+    "n_peak",
+    "n_dip",
+    "n_dark",
+    "dark_frac",
+    "contrast"
+  ],
+  "logistic_accuracy": 0.8095238095238095,
+  "logistic_macro_f1": 0.44498044500819195,
+  "knn_accuracy": 0.8158730158730159,
+  "knn_macro_f1": 0.5650144286727689,
+  "platicon_points": 550,
+  "platicon_n_dark_unique": [
+    1.0
+  ],
+  "platicon_n_dip_counts": {
+    "5.0": 2,
+    "11.0": 3,
+    "12.0": 97,
+    "13.0": 429,
+    "14.0": 19
+  },
+  "dark_frac_slope_per_alpha": -0.00184839443788883,
+  "dark_frac_residual_std": 0.002587044573472939,
+  "dark_frac_residual_max_abs": 0.020427839625415778,
+  "dark_frac_jumps_over_0_02": 0,
+  "pep_min": 3.00543181013954,
+  "pep_max": 4.04688500797714,
+  "pep_std": 0.16016781963654253,
+  "pep_slope_per_alpha": 0.016287919974615137,
+  "pep_r2": 0.969541118943608,
+  "pep_residual_std": 0.02795324532754101,
+  "pep_max_consecutive_jump": 0.49031635021639053,
+  "alpha_span": [
+    -92.0,
+    -40.0
+  ]
+}

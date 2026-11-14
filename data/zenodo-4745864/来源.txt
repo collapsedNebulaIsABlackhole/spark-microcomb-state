@@ -1,0 +1,8 @@
+来源：Zenodo
+题目：Open data for "Laser soliton microcombs heterogeneously integrated on silicon"
+DOI：10.5281/zenodo.4745864
+许可：CC BY 4.0
+文件：Zenodo_data.zip
+大小：216461345 字节
+MD5：707003c703af440afe49ae96d14be401
+说明：硅上异质集成孤子微梳的开放数据，用于光谱对照，不是带标签的训练集。
